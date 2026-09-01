@@ -6,9 +6,8 @@ public class TestCuadrado {
 		
 		//Cuadrado uno
 		
-		 Cuadrado r1 = new Cuadrado();
+		 Cuadrado r1 = new Cuadrado(3);
 		 
-		 r1.setLado(3);
 		 double area;
 		 double perimetro;
 		 
@@ -20,9 +19,8 @@ public class TestCuadrado {
 		 
 		//Cuadrado dos
 			
-		 Cuadrado r2 = new Cuadrado();
+		 Cuadrado r2 = new Cuadrado(4);
 		 
-		 r2.setLado(4);
 		 double area2;
 		 double perimetro2;
 		 
@@ -34,9 +32,8 @@ public class TestCuadrado {
 		 
 		//Cuadrado tres
 			
-		 Cuadrado r3 = new Cuadrado();
+		 Cuadrado r3 = new Cuadrado(6);
 		 
-		 r3.setLado(6);
 		 double area3;
 		 double perimetro3;
 		 

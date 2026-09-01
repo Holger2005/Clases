@@ -4,10 +4,7 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		
-		Rectangulo r1 = new Rectangulo();
-		
-		r1.setAltura(2);
-		r1.setBase(4);
+		Rectangulo r1 = new Rectangulo(2, 4);
 		
 		double resultadoPerimetro;
 		
