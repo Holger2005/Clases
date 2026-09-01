@@ -6,8 +6,8 @@ public class TestRectangulo {
 		
 		Rectangulo r1 = new Rectangulo();
 		
-		r1.altura = 2;
-		r1.base = 4;
+		r1.setAltura(2);
+		r1.setBase(4);
 		
 		double resultadoPerimetro;
 		
